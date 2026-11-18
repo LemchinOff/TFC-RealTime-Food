@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="src/main/resources/icon.png" alt="TFC Real-Time Food Expiry Logo" width="160" style="border-radius: 16px;" />
+<img src="src/main/resources/icon.png" alt="TFC Real-Time Food Expiry Logo" width="160" />
 
 # TFC Real-Time Food Expiry
 
@@ -14,14 +14,14 @@
 </p>
 
 <p>
-  <a href="https://modrinth.com">
-    <img src="https://shields.io" alt="Modrinth" />
+  <a href="https://modrinth.com" title="Download on Modrinth">
+    <img src="https://shields.io" height="42" alt="Modrinth" />
   </a>
-  <a href="https://www.curseforge.com/minecraft/mc-mods/tfc-realtime-food">
-    <img src="https://shields.io" alt="CurseForge" />
+  <a href="https://curseforge.com" title="Download on CurseForge">
+    <img src="https://shields.io" height="42" alt="CurseForge" />
   </a>
-  <a href="[https://github.com](https://github.com/LemchinOff/TFC-RealTime-Food)">
-    <img src="https://shields.io" alt="GitHub Releases" />
+  <a href="https://github.com" title="GitHub Releases">
+    <img src="https://shields.io" height="42" alt="GitHub Releases" />
   </a>
 </p>
 
@@ -36,8 +36,6 @@
   </a>
 </p>
 
-</p>
-
 </div>
 
 ---
@@ -46,9 +44,9 @@
 
 | I want to... | Open |
 | :--- | :--- |
-| Download the mod | **[GitHub Releases](https://github.com/latest)** / **[Modrinth](https://modrinth.com)** / **[CurseForge](ССЫЛКА_НА_CURSEFORGE)** |
+| Download the mod | **[GitHub Releases](https://github.com/latest)** / **[Modrinth](https://modrinth.com)** / **[CurseForge](https://curseforge.com)** |
 | See how it works in-game | **[Features & Comparison](#features)** |
-| Report a bug or suggest an idea | **[GitHub Issues](https://github.com/LemchinOff/TFC-RealTime-Food/issues)** |
+| Report a bug or suggest an idea | **[GitHub Issues](https://github.com)** |
 
 ### ✨ Features
 
@@ -77,9 +75,9 @@
 
 | Я хочу... | Открыть |
 | :--- | :--- |
-| Скачать мод | **[GitHub Releases](https://github.com/latest)** / **[Modrinth](https://modrinth.com)** / **[CurseForge](ССЫЛКА_НА_CURSEFORGE)** |
+| Скачать мод | **[GitHub Releases](https://github.com/latest)** / **[Modrinth](https://modrinth.com)** / **[CurseForge](https://curseforge.com)** |
 | Посмотреть возможности и примеры | **[Возможности и сравнение](#возможности)** |
-| Сообщить об ошибке или предложить идею | **[GitHub Issues](https://github.com/LemchinOff/TFC-RealTime-Food/issues)** |
+| Сообщить об ошибке или предложить идею | **[GitHub Issues](https://github.com)** |
 
 ### ✨ Возможности
 
