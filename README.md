@@ -17,7 +17,7 @@
   <a href="https://modrinth.com">
     <img src="https://shields.io" alt="Modrinth" />
   </a>
-  <a href="[ССЫЛКА_НА_CURSEFORGE](https://www.curseforge.com/minecraft/mc-mods/tfc-realtime-food)">
+  <a href="https://www.curseforge.com/minecraft/mc-mods/tfc-realtime-food">
     <img src="https://shields.io" alt="CurseForge" />
   </a>
   <a href="[https://github.com](https://github.com/LemchinOff/TFC-RealTime-Food)">
