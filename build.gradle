@@ -1,0 +1,112 @@
+plugins {
+    id 'eclipse'
+    id 'idea'
+    id 'maven-publish'
+    id 'net.minecraftforge.gradle' version '[6.0,6.2)'
+    id 'org.spongepowered.mixin' version '0.7.+'
+}
+
+version = '1.2.0'
+group = 'com.example.examplemod'
+
+base {
+    archivesName = 'TFCRealTimeFood'
+}
+
+java.toolchain.languageVersion = JavaLanguageVersion.of(17)
+
+minecraft {
+    mappings channel: 'official', version: '1.20.1'
+    copyIdeResources = true
+
+    runs {
+        configureEach {
+            workingDirectory project.file('run')
+            property 'forge.logging.markers', 'REGISTRIES'
+            property 'forge.logging.console.level', 'debug'
+            arg '-mixin.config=tfcrealtimefood.mixins.json'
+
+            mods {
+                tfcrealtimefood {
+                    source sourceSets.main
+                }
+            }
+        }
+
+        client {
+            property 'forge.enabledGameTestNamespaces', 'tfcrealtimefood'
+        }
+
+        server {
+            property 'forge.enabledGameTestNamespaces', 'tfcrealtimefood'
+            args '--nogui'
+        }
+    }
+}
+
+mixin {
+    add sourceSets.main, 'tfcrealtimefood.refmap.json'
+    config 'tfcrealtimefood.mixins.json'
+}
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+    maven {
+        name = 'MinecraftForge'
+        url = 'https://minecraftforge.net'
+    }
+    maven {
+        url = 'https://cursemaven.com'
+        content {
+            includeGroup "curse.maven"
+        }
+    }
+}
+
+dependencies {
+    minecraft 'net.minecraftforge:forge:1.20.1-47.4.13'
+    implementation fg.deobf("curse.maven:terrafirmacraft-302973:5478226")
+    annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
+}
+
+tasks.named('processResources', ProcessResources).configure {
+    var replaceProperties = [
+            minecraft_version      : '1.20.1',
+            minecraft_version_range: '[1.20.1,1.21)',
+            forge_version          : '47.4.13',
+            forge_version_range    : '[47,)',
+            loader_version_range   : '[47,)',
+            mod_id                 : 'tfcrealtimefood',
+            mod_name               : 'TFC Real-Time Food Expiry',
+            mod_license            : 'MIT',
+            mod_version            : '1.2.0',
+            mod_authors            : 'LemchinOff',
+            mod_description        : 'Shows food expiration time in real-world hours, minutes, and seconds.'
+    ]
+    inputs.properties replaceProperties
+
+    filesMatching(['META-INF/mods.toml', 'pack.mcmeta']) {
+        expand replaceProperties + [project: project]
+    }
+}
+
+tasks.named('jar', Jar).configure {
+    manifest {
+        attributes([
+                'Specification-Title'     : 'tfcrealtimefood',
+                'Specification-Vendor'    : 'LemchinOff',
+                'Specification-Version'   : '1',
+                'Implementation-Title'    : project.name,
+                'Implementation-Version'  : project.jar.archiveVersion,
+                'Implementation-Vendor'   : 'LemchinOff',
+                'Implementation-Timestamp': new Date().format("yyyy-MM-dd'T'HH:mm:ssZ"),
+                'MixinConfigs'            : 'tfcrealtimefood.mixins.json'
+        ])
+    }
+    finalizedBy 'reobfJar'
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+}

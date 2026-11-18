@@ -1,0 +1,19 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="tfcrealtimefood"
+version="1.2.0"
+displayName="TFC Real-Time Food Expiry"
+authors="LemchinOff"
+displayURL="https://github.com/LemchinOff/TFC-RealTime-Food"
+description='''Shows food expiration time in real-world hours, minutes, and seconds inside tooltips and Jade.'''
+displayTest="IGNORE_ALL_VERSION"
+
+[[dependencies.tfcrealtimefood]]
+    modId="tfc"
+    mandatory=true
+    versionRange="[3.0.0,)"
+    ordering="AFTER"
+    side="CLIENT"
