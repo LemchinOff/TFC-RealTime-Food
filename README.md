@@ -10,14 +10,14 @@
 
 [**🇬🇧 English**](#english) • [**🇷🇺 Русский**](#русский)
 
-[![Modrinth](https://img.shields.io/badge/-%20-00AF5C?style=for-the-badge&logo=modrinth&logoColor=white)](https://modrinth.com) 
-[![CurseForge](https://img.shields.io/badge/-%20-F16436?style=for-the-badge&logo=curseforge&logoColor=white)](https://curseforge.com) 
-[![GitHub](https://img.shields.io/badge/-%20-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com)
+[![Modrinth](https://img.shields.io/badge/-%20-00AF5C?style=for-the-badge&logo=modrinth&logoColor=white)](https://modrinth.com/mod/tfc-realtime-food) 
+[![CurseForge](https://img.shields.io/badge/-%20-F16436?style=for-the-badge&logo=curseforge&logoColor=white)](https://www.curseforge.com/minecraft/mc-mods/tfc-realtime-food) 
+[![GitHub](https://img.shields.io/badge/-%20-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/LemchinOff/TFC-RealTime-Food)
 
 [![Vrersion](https://img.shields.io/github/v/release/LemchinOff/TFC-RealTime-Food?display_name=tag&sort=semver&style=flat-square)](https://github.com/LemchinOff/TFC-RealTime-Food/releases) 
 ![Minecraft](https://shields.io) 
 ![Side](https://shields.io) 
-[![License](https://img.shields.io/github/license/LemchinOff/TFC-RealTime-Food)](LICENSE.txt)
+[![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE.txt)
 
 </div>
 
