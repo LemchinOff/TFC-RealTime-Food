@@ -18,6 +18,7 @@
 ![Minecraft](https://img.shields.io/badge/Minecraft-1.20.1Forge-blue?style=flat-square)
 ![Side](https://img.shields.io/badge/Side-ClientOnly-brightgreen?style=flat-square) 
 [![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE.txt)
+[![DonationAlerts](https://img.shields.io/badge/Donate-Support-orange?style=flat-square)](https://dalink.to/lemchinoff)
 
 </div>
 
