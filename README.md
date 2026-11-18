@@ -15,8 +15,8 @@
 [![GitHub](https://img.shields.io/badge/-%20-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/LemchinOff/TFC-RealTime-Food)
 
 [![Vrersion](https://img.shields.io/github/v/release/LemchinOff/TFC-RealTime-Food?display_name=tag&sort=semver&style=flat-square)](https://github.com/LemchinOff/TFC-RealTime-Food/releases) 
-![Minecraft](https://shields.io) 
-![Side](https://shields.io) 
+![Minecraft](https://img.shields.io/badge/Minecraft-1.20.1Forge-blue?style=flat-square)
+![Side](https://img.shields.io/badge/Side-ClientOnly-brightgreen?style=flat-square) 
 [![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE.txt)
 
 </div>
