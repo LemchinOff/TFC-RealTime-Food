@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="src/main/resources/icon.png" alt="TFC Real-Time Food Expiry Logo" width="160" />
+<img src="src/main/resources/icon.png" alt="Logo" width="160" />
 
 # TFC Real-Time Food Expiry
 
@@ -8,33 +8,11 @@
 
 **Перевод срока годности еды из TerraFirmaCraft в реальные часы, минуты и секунды**
 
-<p>
-  <a href="#english"><b>🇬🇧 English</b></a> •
-  <a href="#русский"><b>🇷🇺 Русский</b></a>
-</p>
+[**🇬🇧 English**](#english) • [**🇷🇺 Русский**](#русский)
 
-<p>
-  <a href="https://modrinth.com" title="Download on Modrinth">
-    <img src="https://shields.io" height="42" alt="Modrinth" />
-  </a>
-  <a href="https://curseforge.com" title="Download on CurseForge">
-    <img src="https://shields.io" height="42" alt="CurseForge" />
-  </a>
-  <a href="https://github.com" title="GitHub Releases">
-    <img src="https://shields.io" height="42" alt="GitHub Releases" />
-  </a>
-</p>
+[![Modrinth](https://img.shields.io/badge/-%20-00AF5C?style=for-the-badge&logo=modrinth&logoColor=white)](https://modrinth.com) [![CurseForge](https://img.shields.io/badge/-%20-F16436?style=for-the-badge&logo=curseforge&logoColor=white)](https://curseforge.com) [![GitHub](https://img.shields.io/badge/-%20-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com)
 
-<p>
-  <a href="https://github.com/latest">
-    <img src="https://shields.io" alt="Release" />
-  </a>
-  <img src="https://shields.io" alt="Minecraft 1.20.1 Forge" />
-  <img src="https://shields.io" alt="Client Only" />
-  <a href="LICENSE.txt">
-    <img src="https://shields.io" alt="License MIT" />
-  </a>
-</p>
+[![Vrersion](https://img.shields.io/github/v/release/LemchinOff/TFC-RealTime-Food?display_name=tag&sort=semver&style=flat-square)](https://github.com/LemchinOff/TFC-RealTime-Food/releases) ![Minecraft](https://shields.io) ![Side](https://shields.io) [![License](https://img.shields.io/github/license/LemchinOff/TFC-RealTime-Food)](LICENSE.txt)
 
 </div>
 
@@ -45,7 +23,7 @@
 | I want to... | Open |
 | :--- | :--- |
 | Download the mod | **[GitHub Releases](https://github.com/latest)** / **[Modrinth](https://modrinth.com)** / **[CurseForge](https://curseforge.com)** |
-| See how it works in-game | **[Features & Comparison](#features)** |
+| See how it works in-game | **[Features & Comparison](#-features)** |
 | Report a bug or suggest an idea | **[GitHub Issues](https://github.com)** |
 
 ### ✨ Features
@@ -76,7 +54,7 @@
 | Я хочу... | Открыть |
 | :--- | :--- |
 | Скачать мод | **[GitHub Releases](https://github.com/latest)** / **[Modrinth](https://modrinth.com)** / **[CurseForge](https://curseforge.com)** |
-| Посмотреть возможности и примеры | **[Возможности и сравнение](#возможности)** |
+| Посмотреть возможности и примеры | **[Возможности и сравнение](#-возможности)** |
 | Сообщить об ошибке или предложить идею | **[GitHub Issues](https://github.com)** |
 
 ### ✨ Возможности
