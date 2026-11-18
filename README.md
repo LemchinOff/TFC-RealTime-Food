@@ -17,10 +17,10 @@
   <a href="https://modrinth.com">
     <img src="https://shields.io" alt="Modrinth" />
   </a>
-  <a href="ССЫЛКА_НА_CURSEFORGE">
+  <a href="[ССЫЛКА_НА_CURSEFORGE](https://www.curseforge.com/minecraft/mc-mods/tfc-realtime-food)">
     <img src="https://shields.io" alt="CurseForge" />
   </a>
-  <a href="https://github.com">
+  <a href="[https://github.com](https://github.com/LemchinOff/TFC-RealTime-Food)">
     <img src="https://shields.io" alt="GitHub Releases" />
   </a>
 </p>
@@ -36,8 +36,6 @@
   </a>
 </p>
 
-<p>
-  🇷🇺 Русская версия находится ниже — <a href="#русский"><b>перейти</b></a>
 </p>
 
 </div>
